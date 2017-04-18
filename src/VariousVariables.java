@@ -5,7 +5,7 @@ public class VariousVariables
     public static void main( String[] args )
     {
         //declare variables here before we use them. Variables must be declared before they can be used.
-        int x, y, answer; //all three variables will be declared as integers
+        int x, y, answer, year; //all four variables will be declared as integers
         double temperature;
         float  Temperature; //a float uses less memory than a double
         String firstName, lastName;
@@ -17,6 +17,7 @@ public class VariousVariables
         answer = 42;
         firstName = "James";
         lastName = "Gosling";
+        year = 1995;
         temperature = 98.6;//variables are case-sensitive
         Temperature = 32.0f;// use f to indicate this value is floating-point
           
@@ -34,6 +35,6 @@ public class VariousVariables
         														+ Temperature);
         System.out.println("The variable Temperature is not "
         										 + "the same as  temperature");
-        System.out.println("The founder of Java is " + firstName + lastName );
+        System.out.println(firstName + " " + lastName + " created Java in " + year);
     }
 }
